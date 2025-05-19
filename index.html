@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +43,7 @@
       input.value = "";
 
       try {
-        const response = await fetch("https://justdanitraxxd-pythonbot.hf.space/run/predict", {
+        const response = await fetch("https://justdanitraxxd-pythonbot-backend.hf.space/run/predict", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ data: [message] })
